@@ -8,15 +8,7 @@ namespace empresa{
             this.cpf = cpf;
             this.nome = nome;
         }
-
-      
-        getCpf():string{
-            return this.cpf;
-        }
-
-          setCpf(nome:string):void{
-            this.cpf = cpf;
-        }
+       
 
         getNome():string{
             return this.nome;
@@ -24,6 +16,14 @@ namespace empresa{
 
         setNome(nome:string):void{
             this.nome = nome;
-       
+        }
+
+         getCpf():string{
+            return this.cpf;
+        }
+
+        setCpf(cpf:string):void{
+            this.cpf = cpf;
+        }
     }
 }

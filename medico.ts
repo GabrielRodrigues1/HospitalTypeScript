@@ -7,7 +7,7 @@ namespace hospital{
             return this.crm;
         }
 
-        setCodPaciente(crm:number): void{
+        setCrM(crm:number): void{
             this.crm = crm;
         }
 

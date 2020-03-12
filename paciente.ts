@@ -6,7 +6,7 @@ namespace hospital{
             return this.codPaciente;
         }
 
-        setCodPaciente(cod:number): void{
+        setCodPaciente(cod:number){
             this.codPaciente = cod;
         }
     }

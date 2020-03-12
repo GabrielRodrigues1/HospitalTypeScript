@@ -14,7 +14,7 @@ namespace hospital{
             return this.nome;
         }
 
-        setNome(nome:string):void{
+        setNome(nome:string){
             this.nome = nome;
         }
 
@@ -22,7 +22,7 @@ namespace hospital{
             return this.cpf;
         }
 
-        setCpf(cpf:string):void{
+        setCpf(cpf:string){
             this.cpf = cpf;
         }
     }

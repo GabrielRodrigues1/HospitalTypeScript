@@ -1,14 +1,9 @@
-    namespace hospital{
-          let h = new Hospital;  
-          h.setNomeHospital("Hospita");
-         
-          h.addMedico
-          h.addMedico
-          h.addMedico
+namespace hospital{
 
-          h.addPaciente
-          h.addPaciente
-          h.addPaciente
+    let p = new Paciente();
+        p.setNome("Dale");
+        p.setCpf("001.001.001-01");
+        p.setcodPaciente(1);
+    
 
-          
-    }
+}

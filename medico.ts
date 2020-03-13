@@ -1,4 +1,4 @@
-namespace hospital{
+namespace  pessoa{
      export class Medico extends Funcionario{
         private crm: number;
         private especialidade: number;

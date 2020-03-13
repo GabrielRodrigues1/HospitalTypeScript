@@ -1,4 +1,4 @@
-namespace hospital{
+namespace pessoa{
     export class Hospital{
         private nomeHospital:string;
         private funcionario: Array<Funcionario> = [];

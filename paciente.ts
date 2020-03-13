@@ -1,4 +1,4 @@
-namespace hospital{
+namespace pessoa{
     export class Paciente extends Pessoa{
         private codPaciente: number;
 

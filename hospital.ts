@@ -1,38 +1,40 @@
 namespace pessoa{
     export class Hospital{
-        private nomeHospital:string;
-        private funcionario: Array<Funcionario> = [];
-        private medico: Array<Medico> = [];
-        private paciente: Array<Paciente> = [];
+        private nome: string;
+        private enfermeiros: Array <Enfermeiro> = [];
+        private medicos: Array <Medico> = [];
+        private pacientes: Array <Paciente> = [];
 
-        getNomeHospital():string{
-            return this.nomeHospital;
+        getnome (){
+            return this.nome;
         }
 
-        setNomeHospital(nome:string):void{
-            this.nomeHospital = nome;
+        setnome(nome:string){
+            this.nome = nome;
+        }
+        
+        addEnfermeiros (enfermeiros:Enfermeiro):void{
+            this.enfermeiros.push(enfermeiros);
         }
 
-        addFuncionario(funcionario:Funcionario):void{
-            this.funcionario.push(funcionario);
+        getEnfermeiros(){
+            return this.enfermeiros;
         }
 
-        addMedico(medico:Medico):void{
-            this.medico.push(medico);
+        addMedicos (medicos:Medico):void{
+            this.medicos.push(medicos);
+        }
+        getmedicos(){
+            return this.medicos;
         }
 
-        addPaciente(paciente:Paciente):void{
-            this.paciente.push(paciente);
+        addPacientes(pacientes:Paciente):void{
+            this.pacientes.push(pacientes);
+        }
+        getpacientes(){
+            return this.pacientes;
         }
 
-        getFuncionario(){
-            return this.funcionario;
-        }
-
-        getPaciente(){
-            return this.paciente;
-        }
-            
     }
 
 }

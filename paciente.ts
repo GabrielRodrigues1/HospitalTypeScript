@@ -2,12 +2,16 @@ namespace pessoa{
     export class Paciente extends Pessoa{
         private codPaciente: number;
 
-        getCodPaciente(): number{
+        getcodPaciente(){
+            
             return this.codPaciente;
+
         }
 
-        setCodPaciente(cod:number){
+        setcodPaciente(cod:number){
+
             this.codPaciente = cod;
+            
         }
     }
 }

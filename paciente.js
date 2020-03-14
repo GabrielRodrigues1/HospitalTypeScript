@@ -1,13 +1,13 @@
 "use strict";
-var hospital;
-(function (hospital) {
-    class Paciente extends hospital.Pessoa {
-        getCodPaciente() {
+var pessoa;
+(function (pessoa) {
+    class Paciente extends pessoa.Pessoa {
+        getcodPaciente() {
             return this.codPaciente;
         }
-        setCodPaciente(cod) {
+        setcodPaciente(cod) {
             this.codPaciente = cod;
         }
     }
-    hospital.Paciente = Paciente;
-})(hospital || (hospital = {}));
+    pessoa.Paciente = Paciente;
+})(pessoa || (pessoa = {}));

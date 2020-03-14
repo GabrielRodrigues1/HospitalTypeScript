@@ -1,29 +1,23 @@
 namespace pessoa{
     export class Pessoa{
-       
-        private nome:string;
-        private cpf:string;
+        private nome: string;
+        private cpf: string;
 
-        constructor(nome:string, cpf:string){
-            this.cpf = cpf;
-            this.nome = nome;
-        }
-       
-
-        getNome():string{
+        getnome():string{
             return this.nome;
         }
 
-        setNome(nome:string){
+        setnome(nome:string):void{
             this.nome = nome;
         }
-
-         getCpf():string{
+        getcpf():string{
             return this.cpf;
         }
 
-        setCpf(cpf:string){
+        setcpf(cpf:string):void{
             this.cpf = cpf;
         }
     }
+        
+
 }

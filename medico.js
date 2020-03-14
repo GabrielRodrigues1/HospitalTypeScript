@@ -1,19 +1,19 @@
 "use strict";
-var hospital;
-(function (hospital) {
-    class Medico extends hospital.Funcionario {
-        getCrm() {
+var pessoa;
+(function (pessoa) {
+    class Medico extends pessoa.Funcionario {
+        getcrm() {
             return this.crm;
         }
-        setCrM(crm) {
+        setcrm(crm) {
             this.crm = crm;
         }
-        getEspeciliadade() {
+        getespecialidade() {
             return this.especialidade;
         }
-        setEspecialidae(especialidade) {
-            this.especialidade = especialidade;
+        setespecialidade(esp) {
+            this.especialidade = esp;
         }
     }
-    hospital.Medico = Medico;
-})(hospital || (hospital = {}));
+    pessoa.Medico = Medico;
+})(pessoa || (pessoa = {}));

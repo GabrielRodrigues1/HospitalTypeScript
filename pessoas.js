@@ -1,6 +1,6 @@
 "use strict";
-var empresa;
-(function (empresa) {
+var pessoa;
+(function (pessoa) {
     class Pessoa {
         constructor(nome, cpf) {
             this.cpf = cpf;

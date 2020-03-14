@@ -2,13 +2,12 @@ namespace pessoa{
     export class Funcionario extends Pessoa{
         private codFuncionario: number;
 
-        getCodFuncionario(): number{
+        getcodFuncionario ():number{
             return this.codFuncionario;
         }
-
-        setCodFuncionario(cod:number): void{
+        setcodFuncionario(cod:number): void{
             this.codFuncionario = cod;
         }
-
     }
+
 }

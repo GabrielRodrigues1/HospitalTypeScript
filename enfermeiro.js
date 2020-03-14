@@ -1,13 +1,13 @@
 "use strict";
-var hospital;
-(function (hospital) {
-    class Enfermeiro extends hospital.Funcionario {
-        getCoren() {
+var pessoa;
+(function (pessoa) {
+    class Enfermeiro extends pessoa.Funcionario {
+        getcoren() {
             return this.coren;
         }
-        setCoren(coren) {
+        setcoren(coren) {
             this.coren = coren;
         }
     }
-    hospital.Enfermeiro = Enfermeiro;
-})(hospital || (hospital = {}));
+    pessoa.Enfermeiro = Enfermeiro;
+})(pessoa || (pessoa = {}));
